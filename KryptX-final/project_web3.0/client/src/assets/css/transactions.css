@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:wght@500&display=swap');
+.address-container {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+  justify-content: center; /* Center content vertically */
+}
+
+.transactions-list table tbody tr:hover
+{
+background-color: #1B1B1B;
+cursor: pointer;
+}
+
+/* Define the styles for large screens */
+.transactions-container {
+  padding: 2rem;
+}
+
+.address-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+
+
+.transactions-list table {
+  width: 100%;
+  font-size: 1rem;
+}
+
+/* Define responsive styles for tablets and smaller screens (max-width: 768px) */
+@media (max-width: 768px) {
+  .transactions-container {
+    padding: 1rem;
+  }
+
+  .address-container {
+    margin-top: 0.5rem;
+  }
+
+  .account-address,
+  .account-balance {
+    font-size: 1rem;
+  }
+
+  .transactions-list table {
+    font-size: 0.9rem;
+  }
+}
+
+/* Define responsive styles for mobile screens (max-width: 576px) */
+@media (max-width: 576px) {
+  .transactions-container {
+    padding: 0.5rem;
+  }
+
+  .address-container {
+    margin-top: 0.2rem;
+  }
+
+  .account-address,
+  .account-balance {
+    font-size: 0.9rem;
+  }
+
+  .transactions-list table {
+    font-size: 0.8rem;
+  }
+}
+
+/* transactions.css */
+
+/* Style for the dark background */
+.table-background {
+  background-color: #1A1A1A;
+  border-radius: 10px; /* Add a border radius for a curved container */
+  padding: 20px;
+}
+
+/* Style for the whole table container */
+.table-container {
+  background: none; /* Remove the table background */
+  width: 100%;
+  border-collapse: collapse; /* Remove the default cell spacing */
+  overflow: hidden;
+}
+
+/* Style for table heading */
+.table-container thead {
+  background-color: #1A1A1A;
+}
+
+/* Style for table heading text */
+.table-container th {
+  color: #fff;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Style for table rows */
+.table-container tbody tr {
+  border-radius: 10px;
+  margin: 5px 0;
+  transition: background-color 0.2s;
+}
+
+/* Style for table row text */
+.table-container td {
+  color: #fff;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Style for the table rows on hover */
+.table-container tbody tr:hover {
+  background-color: #7d7878; /* Set it back to the dark background */
+}
+
+/* Style for the background container */
+.info-container {
+  background-color: #1A1A1A;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px; /* Add margin to separate info-container and table */
+}
+
+/* Other styles remain the same */
+
+
+/* Style for the info text */
+.info-text {
+  width: 100%; /* Take full width of the container */
+  padding: 10px;
+  text-align: center; /* Center the text */
+}
+
+/* Style for "Transaction History," "Account Address," and "Account Balance" text */
+.info-text h2,
+.info-text p {
+  color: #fff;
+}
+
+.account-info {
+  margin-bottom: 5px; /* Add margin to separate account info and table */
+}
+
+/* Other styles remain the same */
+
+/* transactions.css */
+
+/* Style for the account info div */
+.account-info {
+  background-color: #1A1A1A;
+  border-radius: 10px; /* Add a border radius for a curved container */
+  width: 100%;
+  border-collapse: collapse; /* Remove the default cell spacing */
+  overflow: hidden;
+  padding: 20px;
+}
+
+/* Style for the account info text */
+.account-info h2,
+.account-info p {
+  color: #fff;
+  padding: 10px;
+  text-align: left;
+}
+
+.Thistory{
+  font-size: 24px;
+  font-weight: 700;
+
+
+}
+
+.account-address, .account-balance{
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+}

@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:wght@500&display=swap');
+body{
+    background-color: #26272b;
+    color: #f4f4f4;
+}
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #26272b;
+    box-shadow: 0px 0px 12px #18191b;
+    border-radius: 8px;
+    margin: 2rem 10rem;
+    padding: .7rem 1rem;
+    font-weight: 700;
+}
+
+.coin-name {
+    margin-left: -3rem;
+}
+
+.coin-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #26272b;
+    box-shadow: 0px 0px 12px #18191b;
+    border-radius: 8px;
+    margin: 2rem 11rem;
+    padding: .7rem 1rem;
+}
+
+.coin-row:hover {
+    transform: scale(1.02);
+    transition: .5s ease-in-out;
+    cursor: pointer;
+}
+
+img {
+    height: 25%;
+    margin-right: 100px;
+    width: 25%;
+}
+
+.img-symbol {
+    display: flex;
+    align-items: center;
+}
+
+
+
+@media screen and (max-width: 720px) {
+    .hide-mobile {
+        display: none;
+    }
+}
+
+/* Add these styles to your existing CSS */
+
+body {
+    background-color: #26272b;
+    color: #f4f4f4;
+  }
+  
+  .container {
+    max-width: 1140px;
+    margin: auto;
+  }
+  
+  .heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #26272b;
+    box-shadow: 0px 0px 12px #18191b;
+    border-radius: 8px;
+    margin: 2rem 10rem;
+    padding: .7rem 1rem;
+    font-weight: 700;
+  }
+  
+  .coin-name {
+    margin-left: -3rem;
+  }
+  
+  .coin-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #26272b;
+    box-shadow: 0px 0px 12px #18191b;
+    border-radius: 8px;
+    margin: 2rem 11rem;
+    padding: .7rem 1rem;
+  }
+  
+  .coin-row:hover {
+    transform: scale(1.02);
+    transition: .5s ease-in-out;
+    cursor: pointer;
+  }
+  
+  img {
+    height: 25%;
+    margin-right: 100px;
+    width: 25%;
+  }
+  
+  .img-symbol {
+    display: flex;
+    align-items: center;
+  }
+  
+  @media screen and (max-width: 720px) {
+    .hide-mobile {
+      display: none;
+    }
+  }
+  

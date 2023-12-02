@@ -1,0 +1,32 @@
+.question {
+    width: 500px;
+    height: 500px;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:wght@500&display=swap');
+  /* Change font color of price and date when hovering on the chart */
+.chart-bar:hover .chart-tooltip,
+.chart-line:hover .chart-tooltip,
+.chart-dot:hover .chart-tooltip {
+  display: block;
+  color: #26272B; /* Change the font color to #26272B */
+}
+
+/* Change font color of X-axis and Y-axis labels */
+.chart-axis-label {
+  font-size: 0.875rem;
+  fill: #26272B; /* Change the font color to #26272B */
+}
+
+/* Change font color of tooltip text when hovering on the chart */
+.chart-tooltip {
+  font-size: 14px;
+  fill: black; /* Change the font color to black */
+}
+  
+/* Change font color of tooltip text when hovering on the chart */
+.recharts-tooltip-wrapper .recharts-tooltip-label,
+.recharts-tooltip-wrapper .recharts-tooltip-item-list {
+  color: black !important; /* Change the font color to black */
+}

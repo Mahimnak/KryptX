@@ -1,0 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:wght@500&display=swap');
+.footer-logo{
+    width: 8rem;
+    height: 8rem;
+    object-fit: cover;
+}

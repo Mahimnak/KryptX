@@ -1,0 +1,10 @@
+.custom-background {
+    background-color: #0f0e13;
+    background-image: radial-gradient(
+        at 0% 0%,
+        hsla(0, 0%, 7%, 1) 0,
+        transparent 50%
+      ),
+      radial-gradient(at 50% 0%, hsla(43, 100%, 65%, 1) 0, transparent 50%),
+      radial-gradient(at 100% 0%, hsla(60, 100%, 65%, 1) 0, transparent 50%);
+ }
