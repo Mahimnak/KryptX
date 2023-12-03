@@ -30,7 +30,7 @@ At the heart of decentralized applications are smart contracts written in Solidi
 Traditional web technologies, including HTML and CSS, are employed to structure and style the user interface, ensuring a visually appealing and responsive design.
 
 <h1>Getting Started</h1>
-1. Clone the repository.
+1. Clone the repository. /n
 2. Install the necessary dependencies using the package manager of your choice.
 3. Connect your Metamask wallet to the KryptX application.
 4. Explore the decentralized features, make transactions, check the market, and engage in the community forum.
