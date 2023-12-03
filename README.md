@@ -29,15 +29,17 @@ At the heart of decentralized applications are smart contracts written in Solidi
 <h2>Web Technologies (HTML, CSS)</h2>
 Traditional web technologies, including HTML and CSS, are employed to structure and style the user interface, ensuring a visually appealing and responsive design.
 
-<h1>Getting Started</h1>
-1. Clone the repository.
-2. Install the necessary dependencies using the package manager of your choice.
-3. Connect your Metamask wallet to the KryptX application.
-4. Explore the decentralized features, make transactions, check the market, and engage in the community forum.
-5. Contribution Guidelines
-6. Contribute to the evolution of KryptX by following the guidelines outlined in the CONTRIBUTING.md file. We welcome community contributions to enhance and refine the functionality of the application.
 
-<h1>License</h1>
-This project is licensed under the MIT License. Refer to the LICENSE file for details.
+## Authors
 
-For any questions, issues, or suggestions, feel free to reach out to the project maintainers. Happy decentralized exploration with KryptX!
+- [@Mahimnak](https://www.github.com/Mahimnak)
+- [@VigneshN-23](https://www.github.com/VigneshN-23)
+
+## Badges
+
+Add badges from somewhere like: [shields.io](https://shields.io/)
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
+[![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
+
