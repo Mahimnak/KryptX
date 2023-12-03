@@ -11,6 +11,8 @@ import axios from "axios";
 import Coin from "./components/Coin";
 import Chart from "./components/Chart";
 import FAQ from "./components/FAQ";
+import History from "./components/History";
+import Exchange from "./components/Exchange";
 
 const App = () => {
   const [coins, setCoins] = useState([])
@@ -34,7 +36,8 @@ const App = () => {
             <Route path="/services" element={<Services />} />
             <Route path="/coin" element={<Coins coins={coins} />} />
             <Route path='/coin/:coinId' element={<Coin />} />
-            <Route path="/transactions" element={<Transactions />} />
+            <Route path="/History" element={<History />} />
+            <Route path="/Exchange" element={<Exchange />} />
             <Route path="/charts" element={<Chart />} />
             <Route path="/faq" element={<FAQ />} />
           </Routes>

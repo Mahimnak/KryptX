@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
-import { Navbar, Footer } from '../components';
+import { Navbar, Footer } from '.';
 import axios from 'axios';
-import '../assets/css/transactions.css';
+import '../assets/css/history.css';
 import '../assets/css/background.css';
 
-const Transactions = () => {
+const History = () => {
   const [transactions, setTransactions] = useState([]);
   const [loading, setLoading] = useState(true);
   const [address, setAddress] = useState('');
@@ -92,9 +92,8 @@ const Transactions = () => {
           </table>
         </div>
       </div>
-     <Footer/>
     </div>
   );
 };
 
-export default Transactions;
+export default History;

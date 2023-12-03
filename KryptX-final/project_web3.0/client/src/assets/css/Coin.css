@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Ubuntu:wght@500&display=swap');
 body{
-    background-color: #26272b;
+    background-color: #0f0e13;
     color: #f4f4f4;
+    font-family:'Lexend';
+    font-weight: 600;
 }
 .coin-container .content {
     max-width: 740px;
@@ -9,9 +11,7 @@ body{
     padding: .7rem 1rem;
     display: flex;
     flex-direction: column;
-    background-color: #26272b;
-    box-shadow: 0px 0px 12px #18191b;
-    border-radius: 8px;
+    background-color: #0f0e13;
 }
 
 .rank {
@@ -19,11 +19,17 @@ body{
 }
 
 .rank-btn {
-    border: 1px solid #6900ff;
-    box-shadow: 0px 0px 8px #6900ff;
-    background-color: #6900ff;
-    border-radius: 8px;
-    padding: .2rem;
+    background-color:#090450;
+    background-image: 
+    radial-gradient(
+        at 0% 0%,
+        rgb(0, 0, 0) 0,
+        transparent 100%
+    ),
+    radial-gradient(at 100% 0%, hsla(60, 70%, 65%, 0.7) 0, transparent 75%);
+    padding: 1%;
+    box-shadow: 0 0px 15px rgba(123, 0, 255, 0.982); pointer-events: none; transition: all 0.3s ease;
+    border: transparent;
 }
 
 .info {
@@ -57,7 +63,7 @@ td, th {
 }
 
 th {
-    background-color: #333;
+    background-color: #0f0e13;
 }
 
 .stats {
@@ -130,7 +136,7 @@ th {
     cursor: pointer;
     outline: none;
     color: white; /* Set text color to white */
-    background-color: #26272B; /* Set background color to #26272B */
+    background-color: #0f0e13; /* Set background color to #26272B */
   }
   
   .currency-select:hover {

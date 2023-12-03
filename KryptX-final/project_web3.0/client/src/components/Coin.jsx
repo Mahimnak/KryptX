@@ -58,7 +58,7 @@ const Coin = () => {
           </div>
           <div className="info">
             <div className="coin-heading">
-              {coin.image && <img src={coin.image.small} alt="" />}
+              {coin.image && <img src={coin.image.small} style={{height: "100%", width:"100", padding:"10px"}} alt="" />}
               <p>{coin.name}</p>
               {coin.symbol && (
                 <p>{coin.symbol.toUpperCase()}/{selectedCurrency.toUpperCase()}</p>

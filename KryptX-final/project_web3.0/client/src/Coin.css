@@ -1,5 +1,5 @@
 body{
-    background-color: #26272b;
+    background-color: #0f0e13;
     color: #f4f4f4;
 }
 .coin-container .content {
@@ -8,8 +8,8 @@ body{
     padding: .7rem 1rem;
     display: flex;
     flex-direction: column;
-    background-color: #26272b;
-    box-shadow: 0px 0px 12px #18191b;
+    background-color: #0f0e13;
+    box-shadow: 0px 0px 12px #0f0e13;
     border-radius: 8px;
 }
 

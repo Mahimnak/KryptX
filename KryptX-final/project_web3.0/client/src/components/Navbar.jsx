@@ -32,9 +32,9 @@ const Navbar = () => {
       <ul className="text-white md:flex hidden list-none flex-row justify-between items-center flex-initial">
         {[
           { title: "Market", path: "/coin" },
-           { title: "Learn", path: "/faq" },
-          // { title: "Tutorials", path: "/tutorials" },
-          { title: "Transactions", path: "/transactions" },
+           { title: "Forum", path: "/faq" },
+          { title: "Transactions", path: "/Exchange" },
+          { title: "History", path: "/History" },
         ].map((item, index) => (
           <NavBarItem
             key={item.title + index}
@@ -74,7 +74,7 @@ const Navbar = () => {
             {[
               { title: "Market", path: "/coin" },                                          
                // { title: "Exchange", path: "/exchange" },
-               { title: "Learn", path: "/faq" },
+               { title: "Forum", path: "/faq" },
             ].map((item, index) => (
               <NavBarItem
                 key={item.title + index}
