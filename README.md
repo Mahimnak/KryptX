@@ -44,5 +44,4 @@ Traditional web technologies, including HTML and CSS, are employed to structure 
 
 ## Documentation
 
-[Documentation](https://rb.gy/ncz7ym)
-<img src="https://cdn3.iconfinder.com/data/icons/aami-web-internet/64/aami4-68-256.png" alt="Icon" style="max-width: 50; max-height: 50;">
+[Documentation](https://rb.gy/ncz7ym)<img src="https://cdn3.iconfinder.com/data/icons/aami-web-internet/64/aami4-68-256.png"> </img>
