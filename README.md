@@ -20,28 +20,28 @@ Keep a comprehensive record of your financial activities with the Transaction Hi
 Engage and connect with the KryptX community through the integrated forum. Discuss a myriad of topics related to blockchain technology, cryptocurrencies, and the KryptX ecosystem. The forum serves as a decentralized space for vibrant discussions and knowledge-sharing among community members.
 
 <h1>Technologies Used</h1>
-<h2>:rocket:JSX</h2>
+<h2>JSX 🚀</h2>
 Crafting a dynamic and efficient user interface, JSX, a syntax extension for JavaScript, plays a crucial role in creating interactive components within the KryptX application.
 
-<h2>Solidity</h2>
+<h2>Solidity ⛓️</h2>
 At the heart of decentralized applications are smart contracts written in Solidity. This programming language facilitates the execution of trustless and automated transactions on the blockchain.
 
-<h2>Web Technologies (HTML, CSS)</h2>
+<h2>Web Technologies (HTML, CSS) 💻</h2>
 Traditional web technologies, including HTML and CSS, are employed to structure and style the user interface, ensuring a visually appealing and responsive design.
 
 
-## Authors
+## Authors ✍️
 
-- [@Mahimnak](https://www.github.com/Mahimnak)
-- [@VigneshN-23](https://www.github.com/VigneshN-23)
+- 👤[@Mahimnak](https://www.github.com/Mahimnak)
+- 👤[@VigneshN-23](https://www.github.com/VigneshN-23)
 
-## Badges
+## Badges 📛
 
 
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
 [![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
 
-## Documentation
+## Documentation 📁
 
 [Documentation](https://rb.gy/ncz7ym)
