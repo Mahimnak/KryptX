@@ -44,4 +44,4 @@ Traditional web technologies, including HTML and CSS, are employed to structure 
 
 ## Documentation
 
-[Documentation](https://rb.gy/ncz7ym)
+[Documentation](https://rb.gy/ncz7ym)<i class="fa fa-file-pdf-o" style="font-size:48px;color:red"></i>
