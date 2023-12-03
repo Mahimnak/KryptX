@@ -44,5 +44,6 @@ Traditional web technologies, including HTML and CSS, are employed to structure 
 
 ## Documentation
 
-[![Documentation]](https://rb.gy/ncz7ym)![image](https://github.com/Mahimnak/KryptX/assets/152704567/78473d63-63ff-4b48-959a-6c4c77a93d79)
+[![Documentation](https://github.com/Mahimnak/KryptX/assets/152704567/765bfdaa-99c6-45c1-a3ac-05eb86d9a39d)
+](https://rb.gy/ncz7ym)
 
