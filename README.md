@@ -1,5 +1,5 @@
 
-<h1>**KryptX - A Web3.0 Blockchain Application**</h1>
+<h1 style="align=center">KryptX - A Web3.0 Blockchain Application</h1>
 <h1>Overview</h1>
 KryptX is an innovative decentralized application (dApp) designed to empower users with a secure and transparent platform for financial transactions and community interaction. Crafted using a blend of JSX, Solidity, HTML, and CSS, KryptX embodies the principles of Web3.0, offering a seamless and intuitive user experience.
 
