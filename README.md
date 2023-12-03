@@ -3,8 +3,8 @@
 <h1>Overview</h1>
 KryptX is an innovative decentralized application (dApp) designed to empower users with a secure and transparent platform for financial transactions and community interaction. Crafted using a blend of JSX, Solidity, HTML, and CSS, KryptX embodies the principles of Web3.0, offering a seamless and intuitive user experience.
 
-Key Features
-Decentralized Transactions
+<h1>Key Features</h1>
+<h2>Decentralized Transactions</h2>
 Experience the freedom of conducting secure and transparent transactions directly on the blockchain. By leveraging Solidity's smart contracts, KryptX enables users to transfer assets without intermediaries, fostering trust and reliability in financial interactions.
 
 Real-Time Market Information
