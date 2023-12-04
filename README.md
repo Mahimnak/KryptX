@@ -1,7 +1,7 @@
 
 <h1 align="center">KryptX - A Web3.0 Blockchain Application</h1>
 <h1>Overview</h1>
-KryptX is an innovative decentralized application (dApp) designed to empower users with a secure and transparent platform for financial transactions and community interaction. Crafted using a blend of JSX, Solidity, HTML, and CSS, KryptX embodies the principles of Web3.0, offering a seamless and intuitive user experience.
+KryptX is an innovative decentralized application (dApp) designed to empower users with a secure and transparent platform for financial transactions and community interaction. Crafted using a blend of JSX, Solidity, HTML, and CSS, KryptX embodies the principles of Web 3.0, offering a seamless and intuitive user experience.
 
 <h1>Key Features</h1>
 <h2>Decentralized Transactions 🌐</h2>
@@ -26,8 +26,8 @@ Crafting a dynamic and efficient user interface, JSX, a syntax extension for Jav
 <h2>Solidity ⛓️</h2>
 At the heart of decentralized applications are smart contracts written in Solidity. This programming language facilitates the execution of trustless and automated transactions on the blockchain.
 
-<h2>Web Technologies (HTML, CSS) 💻</h2>
-Traditional web technologies, including HTML and CSS, are employed to structure and style the user interface, ensuring a visually appealing and responsive design.
+<h2>Web Technologies (MERN Stack) 💻</h2>
+Traditional web technologies, including the MERN stack, are employed to structure and style the user interface, ensuring a visually appealing, responsive, and highly functional design.
 
 
 ## Authors ✍️
