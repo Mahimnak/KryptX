@@ -38,6 +38,10 @@ const Exchange =()=>{
         <div>
             < Navbar/>
             <div className="flex flex-col flex-1 items-center justify-start w-full mf:mt-0 mt-10">
+                            {/* Information Box */}
+                            <div className="flex items-center justify-between w-full p-4 text-white "><a href="https://www.reddit.com/r/CryptoNews/" target="_blank" rel="noopener noreferrer">
+                    <p><BsInfoCircle size={24} /></p>
+                    </a></div>
             <div className="p-5 sm:w-96 mt-20 w-full flex flex-col justify-start items-center">
                 <Input placeholder="Address To" name="addressTo" type="text" handleChange={handleChange} />
                 <Input placeholder="Amount (ETH)" name="amount" type="number" handleChange={handleChange} />
