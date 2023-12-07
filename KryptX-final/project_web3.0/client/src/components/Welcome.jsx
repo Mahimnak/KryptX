@@ -9,7 +9,7 @@ import { Loader } from ".";
 import { useAuth0 } from "@auth0/auth0-react";
 import { FaChevronUp } from 'react-icons/fa';
 import "../index.css";
-const companyCommonStyles = "min-h-[70px] sm:px-0 px-2 sm:min-w-[120px] flex justify-center items-center border-[0.5px] border-gray-400 text-sm ";
+const companyCommonStyles = "min-h-[100px] sm:px-0 px-2 sm:min-w-[120px] flex justify-center items-center border-[0.5px] border-gray-400 text-sm ";
 
 const Input = ({ placeholder, name, type, value, handleChange }) => (
   <input
@@ -62,7 +62,8 @@ const Welcome = () => {
           )}
          
 
-          <div className="grid sm:grid-cols-3 grid-cols-2 w-full mt-5 ml-40">
+         <div className="mx-auto w-full"> 
+        <div className="grid sm:grid-cols-3 grid-cols-2 w-full mt-5 ml-40">
             <div className={`rounded-tl-2xl ${companyCommonStyles}`}>
               Reliability
             </div>
@@ -79,6 +80,8 @@ const Welcome = () => {
             </div>
           </div>
         </div>
+        </div>
+        
         
         <div className="p-3 flex justify-end items-start flex-col rounded-xl h-40 sm:w-72 w-full my-5 eth-card .white-glassmorphism ">
             <div className="flex justify-between flex-col w-full h-full">
@@ -98,11 +101,11 @@ const Welcome = () => {
               </div>
             </div>
           </div>
+          </div>
         <div className="fixed bottom-20 right-20 cursor-pointer transition-all duration-300 ease-in-out transform hover:scale-110">
             <FaChevronUp onClick={ScrollToTop} />
         </div>
       </div>
-    </div>
   );
 };
 
