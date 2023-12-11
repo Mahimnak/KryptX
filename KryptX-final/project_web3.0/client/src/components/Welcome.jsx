@@ -80,6 +80,28 @@ const Welcome = () => {
             </div>
           </div>
         </div>
+        <div className="mx-auto w-full text-center">
+          <div className="mt-5 ml-40">
+            <div className={`sm:rounded-bl-2xl ${companyCommonStyles}`}>
+              <h2 className="font-semibold text-white text-lg mb-2">Crypto News</h2>
+              <ul className="text-white">
+                <li>
+                  <span className="font-semibold">News 1:</span> Bitcoin Surges to New All-Time High
+                  <p className="text-sm">In a surprising turn of events, Bitcoin reaches a new record high, surpassing previous milestones. Analysts attribute the surge to increased institutional interest and positive market sentiment.</p>
+                </li>
+                <li>
+                  <span className="font-semibold">News 2:</span> Ethereum 2.0 Upgrade Successfully Implemented
+                  <p className="text-sm">The long-awaited Ethereum 2.0 upgrade is now live, bringing scalability improvements and a shift to a proof-of-stake consensus. The crypto community celebrates the successful implementation of this major milestone.</p>
+                </li>
+                <li>
+                  <span className="font-semibold">News 3:</span> Ripple Partners with Major Financial Institution
+                  <p className="text-sm">Ripple announces a strategic partnership with a leading global financial institution, aiming to enhance cross-border payments. This collaboration is expected to bring significant advancements to the fintech industry.</p>
+                </li>
+                {/* Add more news items as needed */}
+              </ul>
+            </div>
+          </div>
+        </div>
         </div>
         
         
