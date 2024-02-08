@@ -2,6 +2,9 @@ import React, { useEffect, useState } from "react";
 import { ethers } from "ethers";
 
 import { contractABI, contractAddress } from "../utils/constants";
+import axios from "axios";
+import swal from "sweetalert";
+import useToken from "../hooks/useToken";
 
 export const TransactionContext = React.createContext();
 
@@ -21,10 +24,32 @@ export const TransactionsProvider = ({ children }) => {
   const [isLoading, setIsLoading] = useState(false);
   const [transactionCount, setTransactionCount] = useState(localStorage.getItem("transactionCount"));
   const [transactions, setTransactions] = useState([]);
-
+  const [user , setUser] = useState(null)                               //   changed 
   const handleChange = (e, name) => {
     setformData((prevState) => ({ ...prevState, [name]: e.target.value }));
   };
+
+  const token = useToken();
+  const getUser=async()=>{
+    try {
+      const response = await axios.get("http://localhost:5000/profile",{
+        headers: {
+          Authorization : token || ""
+        }
+      });
+      const data = await response.data;
+      
+      setUser(data)
+      // if(response.status === 200){
+      //    setUser(data);
+      // }
+    } catch (error) {
+        console.log("error in get user" , error);
+    }
+
+
+  }
+
 
   const getAllTransactions = async () => {
     try {
@@ -156,6 +181,8 @@ export const TransactionsProvider = ({ children }) => {
         sendTransaction,
         handleChange,
         formData,
+        user,
+        getUser
       }}
     >
       {children}

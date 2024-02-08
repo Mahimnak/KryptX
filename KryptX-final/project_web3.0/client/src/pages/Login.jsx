@@ -3,17 +3,30 @@ import { useState } from 'react';
 import axios from 'axios';
 import '../assets/css/Login.css'
 import swal from 'sweetalert';
+import {useNavigate , redirect} from 'react-router-dom'
 
 const Login = () => {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
- 
+  const navigate = useNavigate()
   const handleSubmit = async (e) => {
      e.preventDefault();
      try {
-       const response = await axios.post('http://localhost:5000/login', { username, password });
-       if (response.data.success) {
-          window.location.href = '/Home';
+       const response = await axios.post('http://localhost:5000/login', { username, password } , {
+        headers : {
+           "Content-Type" : "application/json"
+        },
+        withCredentials: true
+       });
+       const data = await response.data;
+
+       if (response.data?.success) {
+          // window.location.href = '/Home';
+          localStorage.setItem("token", data?.token)
+          navigate("/Home",{
+            replace: true,
+          });
+          // return redirect("/Home")
        } else {
          swal("Login failed","","error");
        }

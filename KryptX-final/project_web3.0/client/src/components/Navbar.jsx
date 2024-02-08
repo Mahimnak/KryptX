@@ -1,9 +1,9 @@
-import React from "react";
+import React, { useContext, useEffect } from "react";
 import { HiMenuAlt4 } from "react-icons/hi";
 import { AiOutlineClose } from "react-icons/ai";
 import logo from "../../images/logo.png";
-import { Link } from "react-router-dom";
-import { useAuth0 } from "@auth0/auth0-react";
+import { Link, useNavigate } from "react-router-dom";
+import { TransactionContext } from "../context/TransactionContext";
 
 
 
@@ -17,9 +17,18 @@ const NavBarItem = ({ title, path, classprops }) => {
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = React.useState(false);
-  const { loginWithRedirect,isAuthenticated,logout,user } = useAuth0();
-  
+  const navigate = useNavigate()
+  const {user , getUser} = useContext(TransactionContext);
 
+  console.log("hey ",user);
+
+  const handleLogout=()=>{
+     localStorage.removeItem('token');
+  }
+
+  useEffect(()=>{
+     getUser()
+  },[user])
 
   return (
     <nav className="w-full flex md:justify-center justify-between items-center p-4">
@@ -44,7 +53,26 @@ const Navbar = () => {
         ))}
         
       <li>
-      <button className="py-1 px-4 mx-4 rounded-full cursor-pointer border-4 border-transparent hover:border-purple-900" onClick={() => window.location.assign('/')} >Log Out</button>
+      {
+         user ? (
+         <>
+          <h1>Welcome {user[0]?.username}</h1>
+          <button className="py-1 px-4 mx-4 rounded-full cursor-pointer border-4 border-transparent hover:border-purple-900" onClick={handleLogout}>Log Out</button>
+         </>) : (
+          <>
+            <button onClick={()=> navigate("/")}>Login</button>
+          </>
+         )
+         // login
+      }
+      {/* {
+         user ? (
+           <>
+              <h1 className="text-red-400 font-medium text-2xl">Welcome {user[0]?.username}</h1>
+              <button className="py-1 px-4 mx-4 rounded-full cursor-pointer border-4 border-transparent hover:border-purple-900">Log Out</button>
+           </>
+         ) : ""
+      } */}
     </li>
         
       </ul>

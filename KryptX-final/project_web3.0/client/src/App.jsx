@@ -13,6 +13,7 @@ import Chart from "./components/Chart";
 import FAQ from "./components/FAQ";
 import History from "./components/History";
 import Exchange from "./components/Exchange";
+import { AuthProvider } from "./context/Auth";
 
 const App = () => {
   const [coins, setCoins] = useState([])
