@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import { AiFillPlayCircle } from "react-icons/ai";
 import { SiEthereum } from "react-icons/si";
 import { BsInfoCircle } from "react-icons/bs";
@@ -24,11 +24,11 @@ const Input = ({ placeholder, name, type, value, handleChange }) => (
 
 
 const Welcome = () => {
-  const { currentAccount, connectWallet, handleChange, sendTransaction, formData, isLoading } = useContext(TransactionContext);
+  const { currentAccount, connectWallet, handleChange, sendTransaction, formData, isLoading , user , getUser} = useContext(TransactionContext);
   
 //  const { loginWithRedirect,isAuthenticated,logout,user} = useAuth0();
  
-  
+  // console.log("v",user);
 
   const ScrollToTop = () => {
         window.scrollTo({ top: 0, behavior: 'smooth'});
@@ -48,7 +48,7 @@ const Welcome = () => {
           </p>
           
          
-          {!currentAccount && (
+          {user && (
             <button
               type="button"
               onClick={connectWallet}
@@ -60,6 +60,18 @@ const Welcome = () => {
               </p>
             </button>
           )}
+          {/* {!currentAccount && (
+            <button
+              type="button"
+              onClick={connectWallet}
+              className="flex flex-row justify-center items-center my-12 p-3 rounded-full cursor-pointer border-4 border-transparent hover:border-purple-900"
+            >
+              <AiFillPlayCircle className="mr-2" />
+              <p className="text-white text-base font-semibold">
+                Connect Wallet
+              </p>
+            </button>
+          )} */}
          
         <div className="mx-auto w-full"> 
         <div className="grid sm:grid-cols-3 grid-cols-2 w-full mt-[80px] ml-40">
