@@ -6,7 +6,7 @@ import { Navbar } from '../components';
 import { TransactionContext } from "../context/TransactionContext";
 import { shortenAddress } from "../utils/shortenAddress";
 import { Loader } from ".";
-import { useAuth0 } from "@auth0/auth0-react";
+// import { useAuth0 } from "@auth0/auth0-react";
 import { FaChevronUp } from 'react-icons/fa';
 import '../assets/css/Exchange.css';
 

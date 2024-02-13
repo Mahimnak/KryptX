@@ -12,7 +12,7 @@ const Chart = ({ coinId, selectedCurrency }) => {
   const handleChartAPI = async () => {
     try {
       const response = await axios.get(url);
-      const finalData = response.data.prices.map((dataPoint) => ({
+      const finalData = await response.data.prices.map((dataPoint) => ({
         date: new Date(dataPoint[0]),
         price: dataPoint[1],
       }));

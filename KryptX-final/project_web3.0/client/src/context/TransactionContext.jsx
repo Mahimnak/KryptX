@@ -29,8 +29,8 @@ export const TransactionsProvider = ({ children }) => {
     setformData((prevState) => ({ ...prevState, [name]: e.target.value }));
   };
 
-  const token = useToken();
   const getUser=async()=>{
+    const token = useToken();
     try {
       const response = await axios.get("http://localhost:5000/profile",{
         headers: {

@@ -14,6 +14,7 @@ import FAQ from "./components/FAQ";
 import History from "./components/History";
 import Exchange from "./components/Exchange";
 import { AuthProvider } from "./context/Auth";
+import ProtectedRoute from "./components/ProtectedRoute";
 
 const App = () => {
   const [coins, setCoins] = useState([])
@@ -37,10 +38,12 @@ const App = () => {
             <Route path="/services" element={<Services />} />
             <Route path="/coin" element={<Coins coins={coins} />} />
             <Route path='/coin/:coinId' element={<Coin />} />
-            <Route path="/History" element={<History />} />
-            <Route path="/Exchange" element={<Exchange />} />
             <Route path="/charts" element={<Chart />} />
             <Route path="/faq" element={<FAQ />} />
+
+
+            <Route path="/History" element={<ProtectedRoute><History /></ProtectedRoute>} />
+            <Route path="/Exchange" element={<ProtectedRoute><Exchange /></ProtectedRoute>} />
           </Routes>
         </div>
       </>

@@ -24,11 +24,12 @@ const Navbar = () => {
 
   const handleLogout=()=>{
      localStorage.removeItem('token');
+     navigate("/")
   }
 
   useEffect(()=>{
      getUser()
-  },[user])
+  },[])
 
   return (
     <nav className="w-full flex md:justify-center justify-between items-center p-4">

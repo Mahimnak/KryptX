@@ -6,7 +6,7 @@ import { TransactionsProvider } from "./context/TransactionContext";
 import "./index.css";
 import { BrowserRouter as Router } from "react-router-dom"
 //login
-import { Auth0Provider } from '@auth0/auth0-react';
+// import { Auth0Provider } from '@auth0/auth0-react';
 import { AuthProvider } from "./context/Auth";
 //Main.jsx is Indexjs or jsx.
 

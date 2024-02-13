@@ -6,7 +6,7 @@ import { Navbar } from '../components';
 import { TransactionContext } from "../context/TransactionContext";
 import { shortenAddress } from "../utils/shortenAddress";
 import { Loader } from ".";
-import { useAuth0 } from "@auth0/auth0-react";
+// import { useAuth0 } from "@auth0/auth0-react";
 import { FaChevronUp } from 'react-icons/fa';
 import "../index.css";
 const companyCommonStyles = "min-h-[100px] sm:px-0 px-2 sm:min-w-[120px] flex justify-center items-center border-[0.5px] border-gray-400 text-sm ";
@@ -26,7 +26,7 @@ const Input = ({ placeholder, name, type, value, handleChange }) => (
 const Welcome = () => {
   const { currentAccount, connectWallet, handleChange, sendTransaction, formData, isLoading } = useContext(TransactionContext);
   
- const { loginWithRedirect,isAuthenticated,logout,user} = useAuth0();
+//  const { loginWithRedirect,isAuthenticated,logout,user} = useAuth0();
  
   
 
@@ -40,7 +40,7 @@ const Welcome = () => {
       <div className="flex mf:flex-row flex-col items-start justify-between md:p-20 py-12 px-4">
         <div className="flex flex-1 justify-start items-start flex-col mf:mr-10">
           <h1 className="text-3xl sm:text-5xl text-white text-gradient py-1">
-            {isAuthenticated && <p>Welcome {user.name}</p>}
+            {/* {isAuthenticated && <p>Welcome {user.name}</p>} */}
             Send Crypto <br /> across the world
           </h1>
           <p className="text-left mt-5 text-white font-light md:w-9/12 w-11/12 text-base">
