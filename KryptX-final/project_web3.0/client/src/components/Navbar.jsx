@@ -19,7 +19,7 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = React.useState(false);
   const navigate = useNavigate()
   const {user , getUser} = useContext(TransactionContext);
-  /*lmao abcd*/
+  
 
   console.log("hey ",user);
 
